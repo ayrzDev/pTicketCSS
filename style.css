@@ -77,11 +77,16 @@ box-shadow: 0px 0px 14px 3px rgb(78, 78, 78);
     }
 }
 
-ul{
-list-style-type: none;
-}
-
-ul a{
-       color: #ffF;
+a{
        text-decoration: none;
+     color: #fff;
+}
+a:hover{
+       color: #fff;
+}
+.devlogo{
+       transition: 0.5s;
+}
+.devlogo:hover{
+       transform: scale(0.8);
 }
